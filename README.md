@@ -73,7 +73,8 @@ This can be used for projects, fun console outputs, or themed terminal presentat
 
 Run the following commands in your PowerShell console:
 
-    powershellCopy codeemoji "1F525" "Red" "Black" # Fire emoji 🔥emoji "1F511" "White" "Cyan" # Key emoji 🔑
+    emoji "1F525" "Red" "Black" # this will generate the Fire emoji 🔥
+    emoji "1F511" "White" "Cyan" # this will generate the Key emoji 🔑
 
 Output:
 
@@ -92,6 +93,6 @@ Output:
 
 #### **Disclaimer**
 
-This script relies on Unicode support and PowerShell features. Some Unicode values might not render correctly on systems with limited emoji support.
+This script does not seem to work outside of Powershell ISE at the moment, once I find a fix for it I will update the repo. Its because it relies on Unicode support and PowerShell features. Some Unicode values might not render correctly on systems with limited emoji support.
 
 Happy emoji scripting! 😊
